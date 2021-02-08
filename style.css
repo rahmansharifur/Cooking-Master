@@ -1,0 +1,45 @@
+                body {
+                    background-color: rgb(237, 210, 99);
+                    padding: 100px;
+                }
+                
+                #meal-list {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-gap: 15px;
+                }
+                
+                .meal {
+                    margin: 2.4rem 0;
+                }
+                
+                .meal-item {
+                    background-color: white;
+                    border: 1px solid goldenrod;
+                    border-radius: 20px;
+                    padding: 20px;
+                    text-align: center;
+                    width: 300px;
+                }
+                
+                .meal-img img {
+                    width: 100%;
+                    display: block;
+                }
+                
+                .meal-name {
+                    padding: 1.5rem 0.5rem;
+                }
+                
+                .meal-name h3 {
+                    font-size: 1.4rem;
+                }
+                
+                .ingredient {
+                    background-color: white;
+                    border: 1px solid goldenrod;
+                    border-radius: 20px;
+                    padding: 20px;
+                    text-align: left;
+                    width: 400px;
+                }
