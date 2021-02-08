@@ -59,7 +59,7 @@ const displayIngredients = itemName => {
 const displayIngredientsDetails = item => {
     console.log(item.strMealThumb)
     const ingredientDetailDiv = document.getElementById('ingredientDetail');
-
+    ingredientDetailDiv.innerHTML = ''
     const ingredientDiv = document.createElement('div');
     ingredientDiv.className = 'ingredient';
 
