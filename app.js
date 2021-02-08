@@ -1,7 +1,7 @@
 // searce Button for meal name
 const searchBtn = document.getElementById('search-btn');
 searchBtn.addEventListener('click', () => {
-    const inputMeal = document.getElementById('meal-input').value;
+    const inputMeal = document.getElementById('meal-input').value.trim();
     getMeal(inputMeal)
 })
 
